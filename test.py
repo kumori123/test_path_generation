@@ -5,7 +5,6 @@ from grammarAParser import grammarAParser
 from grammarAVisitor import grammarAVisitor
 from functools import reduce
 import z3
-import re
 
 
 op_reverse_dict={'==':'!=','>':'<=','<':'>=','!=':'==','>=':'<','<=':'>'}
